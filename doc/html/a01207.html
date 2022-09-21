@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Natural: Класс testing::internal::linked_ptr_internal</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Natural
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="a00087.html">testing</a></li><li class="navelem"><a class="el" href="a00088.html">internal</a></li><li class="navelem"><a class="el" href="a01207.html">linked_ptr_internal</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="a01204.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс testing::internal::linked_ptr_internal</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="a00053_source.html">gtest-linked_ptr.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a742af1f65df2d5e2b7198a1b74264a83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01207.html#a742af1f65df2d5e2b7198a1b74264a83">join_new</a> ()</td></tr>
+<tr class="separator:a742af1f65df2d5e2b7198a1b74264a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd5a341459f7e81b10b4112d8c764e2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01207.html#acd5a341459f7e81b10b4112d8c764e2a">join</a> (<a class="el" href="a01207.html">linked_ptr_internal</a> const *ptr) <a class="el" href="a00038.html#a69abff5a4efdd07bd5faebe3dd318d06">GTEST_LOCK_EXCLUDED_</a>(g_linked_ptr_mutex)</td></tr>
+<tr class="separator:acd5a341459f7e81b10b4112d8c764e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8699e539d9702d363ef0351012d1b3ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01207.html#a8699e539d9702d363ef0351012d1b3ca">depart</a> () <a class="el" href="a00038.html#a69abff5a4efdd07bd5faebe3dd318d06">GTEST_LOCK_EXCLUDED_</a>(g_linked_ptr_mutex)</td></tr>
+<tr class="separator:a8699e539d9702d363ef0351012d1b3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:ae4397a65a4d76a24547fcf2cd17131d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a01207.html">linked_ptr_internal</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a></td></tr>
+<tr class="separator:ae4397a65a4d76a24547fcf2cd17131d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock">
+<p class="definition">См. определение в файле <a class="el" href="a00053_source.html">gtest-linked_ptr.h</a> строка <a class="el" href="a00053_source.html#l00089">89</a></p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a8699e539d9702d363ef0351012d1b3ca" name="a8699e539d9702d363ef0351012d1b3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8699e539d9702d363ef0351012d1b3ca">&#9670;&#160;</a></span>depart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool testing::internal::linked_ptr_internal::depart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="a00053_source.html">gtest-linked_ptr.h</a> строка <a class="el" href="a00053_source.html#l00125">125</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  126</span>                                               {</div>
+<div class="line"><span class="lineno">  127</span>    <a class="code hl_typedef" href="a00088.html#a08b187c6cc4e28400aadf9a32fccc8de">MutexLock</a> lock(&amp;g_linked_ptr_mutex);</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a> == <span class="keyword">this</span>) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  130</span>    linked_ptr_internal <span class="keyword">const</span>* p = <a class="code hl_variable" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a>;</div>
+<div class="line"><span class="lineno">  131</span>    <span class="keywordflow">while</span> (p-&gt;next_ != <span class="keyword">this</span>) {</div>
+<div class="line"><span class="lineno">  132</span>      assert(p-&gt;next_ != <a class="code hl_variable" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a> &amp;&amp;</div>
+<div class="line"><span class="lineno">  133</span>             <span class="stringliteral">&quot;Trying to depart() a linked ring we are not in. &quot;</span></div>
+<div class="line"><span class="lineno">  134</span>             <span class="stringliteral">&quot;Is GMock thread safety enabled?&quot;</span>);</div>
+<div class="line"><span class="lineno">  135</span>      p = p-&gt;next_;</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
+<div class="line"><span class="lineno">  137</span>    p-&gt;next_ = <a class="code hl_variable" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a>;</div>
+<div class="line"><span class="lineno">  138</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  139</span>  }</div>
+<div class="ttc" id="aa00088_html_a08b187c6cc4e28400aadf9a32fccc8de"><div class="ttname"><a href="a00088.html#a08b187c6cc4e28400aadf9a32fccc8de">testing::internal::MutexLock</a></div><div class="ttdeci">GTestMutexLock MutexLock</div><div class="ttdef"><b>Definition:</b> <a href="a00038_source.html#l02297">gtest-port.h:2297</a></div></div>
+<div class="ttc" id="aa01207_html_ae4397a65a4d76a24547fcf2cd17131d8"><div class="ttname"><a href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">testing::internal::linked_ptr_internal::next_</a></div><div class="ttdeci">linked_ptr_internal const  * next_</div><div class="ttdef"><b>Definition:</b> <a href="a00053_source.html#l00142">gtest-linked_ptr.h:142</a></div></div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="a00053_source.html#l00142">next_</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="a00053_source.html#l00204">testing::internal::linked_ptr&lt; T &gt;::depart()</a>.</p>
+
+</div>
+</div>
+<a id="acd5a341459f7e81b10b4112d8c764e2a" name="acd5a341459f7e81b10b4112d8c764e2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd5a341459f7e81b10b4112d8c764e2a">&#9670;&#160;</a></span>join()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testing::internal::linked_ptr_internal::join </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a01207.html">linked_ptr_internal</a> const *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="a00053_source.html">gtest-linked_ptr.h</a> строка <a class="el" href="a00053_source.html#l00108">108</a></p>
+<div class="fragment"><div class="line"><span class="lineno">  109</span>                                               {</div>
+<div class="line"><span class="lineno">  110</span>    <a class="code hl_typedef" href="a00088.html#a08b187c6cc4e28400aadf9a32fccc8de">MutexLock</a> lock(&amp;g_linked_ptr_mutex);</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    linked_ptr_internal <span class="keyword">const</span>* p = ptr;</div>
+<div class="line"><span class="lineno">  113</span>    <span class="keywordflow">while</span> (p-&gt;next_ != ptr) {</div>
+<div class="line"><span class="lineno">  114</span>      assert(p-&gt;next_ != <span class="keyword">this</span> &amp;&amp;</div>
+<div class="line"><span class="lineno">  115</span>             <span class="stringliteral">&quot;Trying to join() a linked ring we are already in. &quot;</span></div>
+<div class="line"><span class="lineno">  116</span>             <span class="stringliteral">&quot;Is GMock thread safety enabled?&quot;</span>);</div>
+<div class="line"><span class="lineno">  117</span>      p = p-&gt;next_;</div>
+<div class="line"><span class="lineno">  118</span>    }</div>
+<div class="line"><span class="lineno">  119</span>    p-&gt;next_ = <span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  120</span>    <a class="code hl_variable" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a> = ptr;</div>
+<div class="line"><span class="lineno">  121</span>  }</div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="a00053_source.html#l00142">next_</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="a00053_source.html#l00213">testing::internal::linked_ptr&lt; T &gt;::copy()</a>.</p>
+
+</div>
+</div>
+<a id="a742af1f65df2d5e2b7198a1b74264a83" name="a742af1f65df2d5e2b7198a1b74264a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a742af1f65df2d5e2b7198a1b74264a83">&#9670;&#160;</a></span>join_new()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testing::internal::linked_ptr_internal::join_new </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="a00053_source.html">gtest-linked_ptr.h</a> строка <a class="el" href="a00053_source.html#l00092">92</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   92</span>                  {</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_variable" href="a01207.html#ae4397a65a4d76a24547fcf2cd17131d8">next_</a> = <span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   94</span>  }</div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="a00053_source.html#l00142">next_</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="a00053_source.html#l00208">testing::internal::linked_ptr&lt; T &gt;::capture()</a> и <a class="el" href="a00053_source.html#l00213">testing::internal::linked_ptr&lt; T &gt;::copy()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="ae4397a65a4d76a24547fcf2cd17131d8" name="ae4397a65a4d76a24547fcf2cd17131d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4397a65a4d76a24547fcf2cd17131d8">&#9670;&#160;</a></span>next_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a01207.html">linked_ptr_internal</a> const* testing::internal::linked_ptr_internal::next_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="a00053_source.html">gtest-linked_ptr.h</a> строка <a class="el" href="a00053_source.html#l00142">142</a></p>
+
+<p class="reference">Используется в <a class="el" href="a00053_source.html#l00125">depart()</a>, <a class="el" href="a00053_source.html#l00108">join()</a> и <a class="el" href="a00053_source.html#l00092">join_new()</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.6/build/native/include/gtest/internal/<a class="el" href="a00053_source.html">gtest-linked_ptr.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Natural. Последние изменения: Ср 21 Сен 2022 23:44:02. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>
