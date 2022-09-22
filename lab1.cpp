@@ -1,14 +1,12 @@
 ﻿/*!
 * \file 
-* Данный файл содержит функцию main(), 
-таким образом здесь разработчик может самостоятельно проверить 
-работоспособность и возможности класса Natural.	
+* This file containes main().	
 *
-* К данному файлу подключается заголовочный файл header.h с декларацией класса Natural и его методов.
+* The header file header.h is attached to this file with the declaration of the Natural class and its methods.
 */
 #include "header.h"
-/*! Точка входа в программу. 
-\return При корректном завершении программы возвращает 0.	
+/*! Program entry point. 
+\return If the program runs correctly, returns 0.
 */
 int main()
 {

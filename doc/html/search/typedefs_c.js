@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['value_5ftype_0',['value_type',['../a01155.html#a29e6a3f3989ddb47103944b350f1bec0',1,'testing::internal::VoidT::value_type()'],['../a01179.html#ae86da51032ada1bc7ed6b0d33ac43aa7',1,'testing::internal::IsRecursiveContainerImpl&lt; C, true, true &gt;::value_type()'],['../a01203.html#a12216d686e16e4cc63d952fada5b2ba9',1,'testing::internal::NativeArray::value_type()'],['../a01435.html#a4afe3a68db0d0744753c8afe262e35df',1,'testing::internal::ParamIterator::value_type()'],['../a01575.html#a29de4320a9c53ce438d3561b94e515bb',1,'testing::internal::IteratorTraits::value_type()'],['../a01579.html#a7e46869ed36cc5aea898e243d270a8be',1,'testing::internal::IteratorTraits&lt; T * &gt;::value_type()'],['../a01583.html#ae7c8867223e106f374b56a7dc4a85547',1,'testing::internal::IteratorTraits&lt; const T * &gt;::value_type()']]]
-];

@@ -138,3 +138,32 @@ TEST(throw, n) {
 	EXPECT_ANY_THROW(Natural b(0));
 	EXPECT_NO_THROW(Natural d(0, 1, 1));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,67 +11,67 @@
 \DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_natural}{Natural}}}
 \DoxyCodeLine{18 \{}
 \DoxyCodeLine{19 \textcolor{keyword}{private}:}
-\DoxyCodeLine{20     \textcolor{keywordtype}{int} num; }
-\DoxyCodeLine{21     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} denom; }
-\DoxyCodeLine{22     \textcolor{keywordtype}{void} reduce(); }
-\DoxyCodeLine{23     \textcolor{keywordtype}{int} NOD(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y); }
-\DoxyCodeLine{24     \mbox{\hyperlink{class_natural}{Natural}}\& reversal(); }
-\DoxyCodeLine{25 \textcolor{keyword}{public}:}
-\DoxyCodeLine{26     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}();}
-\DoxyCodeLine{27     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keywordtype}{int} i);}
-\DoxyCodeLine{28     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keywordtype}{int} i, \textcolor{keywordtype}{int} n, \textcolor{keywordtype}{int} d);}
-\DoxyCodeLine{29     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keywordtype}{int} n, \textcolor{keywordtype}{int} d);}
-\DoxyCodeLine{30     \mbox{\hyperlink{class_natural_a23692870827210826cd95b19e20cfe47}{\string~Natural}}();}
-\DoxyCodeLine{31     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_natural}{Natural}}\& x);}
-\DoxyCodeLine{32     \textcolor{keyword}{const} \textcolor{keywordtype}{int} getInt(); }
-\DoxyCodeLine{33     \textcolor{keyword}{const} \textcolor{keywordtype}{int} getNum();}
-\DoxyCodeLine{34     \textcolor{keyword}{const} \textcolor{keywordtype}{int} getDenom();}
-\DoxyCodeLine{35     \textcolor{keywordtype}{double} ntod();}
-\DoxyCodeLine{36 }
-\DoxyCodeLine{37     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator ==(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{38     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator !=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{39     \textcolor{keyword}{friend} ostream\& operator <<(ostream\& os, \mbox{\hyperlink{class_natural}{Natural}}\& x);}
-\DoxyCodeLine{40     \textcolor{keyword}{friend} istream\& operator >>(istream\& is, \mbox{\hyperlink{class_natural}{Natural}}\& x);}
-\DoxyCodeLine{41 }
-\DoxyCodeLine{42     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator +(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{43     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator += (\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{44     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator +(\textcolor{keywordtype}{int} x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{45     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator +(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{46     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator +=(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{47 }
-\DoxyCodeLine{48     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator -\/(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{49     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator -\/=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{50     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator -\/(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{51     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator -\/=(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{52 }
-\DoxyCodeLine{53     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator *(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{54     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator *= (\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{55     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator *(\textcolor{keywordtype}{int} x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{56     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator *(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{57     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator *=(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{58 }
-\DoxyCodeLine{59     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator /(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{60     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator /=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{61     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator /(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{62     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator /=(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
-\DoxyCodeLine{63 }
-\DoxyCodeLine{64     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator ++(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int});}
-\DoxyCodeLine{65     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator ++(\mbox{\hyperlink{class_natural}{Natural}}\& x);}
-\DoxyCodeLine{66     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} operator -\/-\/(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int});}
-\DoxyCodeLine{67     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} operator -\/-\/(\mbox{\hyperlink{class_natural}{Natural}}\& x);}
-\DoxyCodeLine{68 }
-\DoxyCodeLine{69     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator >(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{70     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator >(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
-\DoxyCodeLine{71     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator >=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{72     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator >=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
-\DoxyCodeLine{73     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator <(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{74     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator <(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
-\DoxyCodeLine{75     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator <=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
-\DoxyCodeLine{76     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator <=(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
-\DoxyCodeLine{77 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{int} num; }
+\DoxyCodeLine{22     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} denom; }
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} reduce(); }
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} NOD(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y); }
+\DoxyCodeLine{25     \mbox{\hyperlink{class_natural}{Natural}}\& reversal(); }
+\DoxyCodeLine{26 \textcolor{keyword}{public}:}
+\DoxyCodeLine{27     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}();}
+\DoxyCodeLine{28     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keywordtype}{int} i);}
+\DoxyCodeLine{29     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keywordtype}{int} i, \textcolor{keywordtype}{int} n, \textcolor{keywordtype}{int} d);}
+\DoxyCodeLine{30     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keywordtype}{int} n, \textcolor{keywordtype}{int} d);}
+\DoxyCodeLine{31     \mbox{\hyperlink{class_natural_a23692870827210826cd95b19e20cfe47}{\string~Natural}}();}
+\DoxyCodeLine{32     \mbox{\hyperlink{class_natural_ad8137a338c812c5718d9239d6c4cc4f6}{Natural}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_natural}{Natural}}\& x);}
+\DoxyCodeLine{33     \textcolor{keyword}{const} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_natural_a6c65b8db18f56a6f01777c0f1099ef38}{getInt}}(); }
+\DoxyCodeLine{34     \textcolor{keyword}{const} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_natural_a765f07a4288e5ff5340d36783dc5d066}{getNum}}();}
+\DoxyCodeLine{35     \textcolor{keyword}{const} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_natural_a219e53686da8b45bb333ea8d32eaf59d}{getDenom}}();}
+\DoxyCodeLine{36     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_natural_af68ef5dfca06c2f7894cb898887858f5}{ntod}}();}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_a0204456c8320f15d1a3641831714a4b8}{operator ==}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{39     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_ad7c1e481ce9ea3017c252b4f8171bb52}{operator !=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{40     \textcolor{keyword}{friend} ostream\& \mbox{\hyperlink{class_natural_aafd2198c8fdc4bfd35f0b50830456c42}{operator <<}}(ostream\& os, \mbox{\hyperlink{class_natural}{Natural}}\& x);}
+\DoxyCodeLine{41     \textcolor{keyword}{friend} istream\& \mbox{\hyperlink{class_natural_a55e17715b23179935bad853eeddfceff}{operator >>}}(istream\& is, \mbox{\hyperlink{class_natural}{Natural}}\& x);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_ab91697cb2251837bbc338d4c71b197e4}{operator +}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{44     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_af44e966de7d71c92afd622773a23b3e0}{operator += }}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{45     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_ab91697cb2251837bbc338d4c71b197e4}{operator +}}(\textcolor{keywordtype}{int} x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{46     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_ab91697cb2251837bbc338d4c71b197e4}{operator +}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{47     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_af44e966de7d71c92afd622773a23b3e0}{operator +=}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a2cea4e0b735d3cdc1d4af40bcaa49407}{operator -\/}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{50     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_a465361d8e368b2ef441722961683604c}{operator -\/=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{51     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a2cea4e0b735d3cdc1d4af40bcaa49407}{operator -\/}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{52     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_a465361d8e368b2ef441722961683604c}{operator -\/=}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a00c288e4f4992f9a2b1555e1623c7168}{operator *}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{55     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_aa912ec33444402d8d5db548bdc91b10b}{operator *= }}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{56     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a00c288e4f4992f9a2b1555e1623c7168}{operator *}}(\textcolor{keywordtype}{int} x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{57     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a00c288e4f4992f9a2b1555e1623c7168}{operator *}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{58     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_aa912ec33444402d8d5db548bdc91b10b}{operator *=}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a0975160262b1735c70980d3e81829031}{operator /}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{61     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_a414d70d5b59df9e14057a54330408259}{operator /=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{62     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a0975160262b1735c70980d3e81829031}{operator /}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{63     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_a414d70d5b59df9e14057a54330408259}{operator /=}}(\mbox{\hyperlink{class_natural}{Natural}}\& y, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_a648039ef3cf355154bf39c2d783132d0}{operator ++}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int});}
+\DoxyCodeLine{66     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_a648039ef3cf355154bf39c2d783132d0}{operator ++}}(\mbox{\hyperlink{class_natural}{Natural}}\& x);}
+\DoxyCodeLine{67     \textcolor{keyword}{friend} \mbox{\hyperlink{class_natural}{Natural}} \mbox{\hyperlink{class_natural_afa495021be2cd2127fde40bb9160519d}{operator -\/-\/}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int});}
+\DoxyCodeLine{68     \textcolor{keyword}{friend} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_natural_afa495021be2cd2127fde40bb9160519d}{operator -\/-\/}}(\mbox{\hyperlink{class_natural}{Natural}}\& x);}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_a7b5249c0d230ed74b3f217ad773d6e90}{operator >}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{71     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_a7b5249c0d230ed74b3f217ad773d6e90}{operator >}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{72     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_acf20d1d640b35b080d746e4b3c6ab23e}{operator >=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{73     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_acf20d1d640b35b080d746e4b3c6ab23e}{operator >=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{74     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_af15ed0938f09f051ffce7a9b068daa12}{operator <}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{75     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_af15ed0938f09f051ffce7a9b068daa12}{operator <}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{76     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_aa73ca11634d8014a21b9673008c0db76}{operator <=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \mbox{\hyperlink{class_natural}{Natural}}\& y);}
+\DoxyCodeLine{77     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_natural_aa73ca11634d8014a21b9673008c0db76}{operator <=}}(\mbox{\hyperlink{class_natural}{Natural}}\& x, \textcolor{keywordtype}{int} y);}
 \DoxyCodeLine{78 }
 \DoxyCodeLine{79 }
 \DoxyCodeLine{80 }
-\DoxyCodeLine{81 \};}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82 \};}
 
 \end{DoxyCode}
